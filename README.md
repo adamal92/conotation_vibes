@@ -1,3 +1,3 @@
 # conotation_vibes
 
-@https://github.com/rubenrudov
+### written by [Adam Livne](https://github.com/adamal92) and [Ruben Rudov](https://github.com/rubenrudov)  
