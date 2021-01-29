@@ -1,3 +1,3 @@
 # conotation_vibes
 
-@rubenrudov
+@https://github.com/rubenrudov
