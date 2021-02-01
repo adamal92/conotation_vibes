@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import platform
 from datetime import datetime, timedelta
 import logging
 import time
@@ -19,16 +20,11 @@ from serverLib import *
 
 
 def start_server():
-    run_py_file("sentiment_text")
-
-    # run_py_file("red_green_countries")  # red green
-    # run_py_file("load_latest_json_5_cities_israel_redGreen")  # israel_final, cities_final
-    # run_py_file("load_country")  # israel_UN_WHO, WorldWide_stats
-    # run_py_file("load_graph_2")  # graph_3
-
-    # crawl_corona_UN()
-    # crawl_corona_red_green()
-    # crawl_corona_israel_final()
+    run_py_file("get_save_data")
+    run_py_file("standardize")
+    run_py_file("process")
+    run_py_file("analyze")
+    run_py_file("make data accessible")
 
 
 @Constants.SCHEDULER.scheduled_job('cron', day_of_week='mon-sun', hour=7, minute=0, second=0)
@@ -37,14 +33,14 @@ def scheduled_job():
     firebase_config()
     start_server()
     print(datetime.now())
-    playsound(
-        "/home/kobi/Adam_desk/BigData/BigData-master/BD_projects/Ruby_corona_charts/linux server/python/arrow_fx.wav")
+
+    play_sound()
+
     logging.debug(f"Program Total Time: {time.time() - st} seconds")
     logging.debug(f"Program Total Time: {(time.time() - st)//60} minutes")
 
 
 def main():
-    RUN_SCHEDULER = False  # True
     # kobi@kobi-A1SAi:~/Adam_desk/BigData/BigData-master/BD_projects$ python3 Ruby_corona_charts/python/linuxServer.py
     st = time.time()
 
@@ -55,20 +51,32 @@ def main():
     logging.getLogger('py4j').setLevel(logging.ERROR)
     logging.getLogger('my_log').setLevel(logging.DEBUG)
 
+    def set_scheduler():
+        inp = input("Do you want to start a scheduled server? [y/n]\n")
+        if inp == "y" or inp == "Y":
+            Constants.RUN_SCHEDULER = True
+        elif inp == "n" or inp == "N":
+            Constants.RUN_SCHEDULER = False
+        else:
+            print("Syntax Error. Please enter a valid answer")
+            set_scheduler()
+    set_scheduler()
+
     try:
         firebase_config()
         print(datetime.now())
+        set_current_os(os_type=platform.system())
 
-        if RUN_SCHEDULER:
+        if Constants.RUN_SCHEDULER:
             # pass
             start_server()
+            play_sound()
             Constants.SCHEDULER.start()
         else:
             start_server()
     finally:
-        from playsound import playsound
-        playsound("/home/kobi/Adam_desk/BigData/BigData-master/BD_projects/Ruby_corona_charts/linux server/python/arrow_fx.wav")
-        # playsound("arrow_fx.wav")
+        play_sound()
+
         logging.debug(f"Program Total Time: {time.time() - st} seconds")
         logging.debug(f"Program Total Time: {(time.time() - st)//60} minutes")
 
