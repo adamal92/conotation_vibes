@@ -2,10 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155bbbbf-9dad-4a86-8bfd-4d58aa99aefd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/sentiment_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/serverLib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.floo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.flooignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.idea/conotation_vibes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/database.rules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/database.rules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/firestore.indexes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/firestore.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/storage.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/images/intro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/images/new_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/jquery.scrollex.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_actions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_split.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_spotlights.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/components/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/layout/_intro.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/layout/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/images/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/images/pic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/images/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/images/pic06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/book.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/crawler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/metro-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/metro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/react_app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/react_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/react_app.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/react_json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/spider/spider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/visualize_json.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/static/visualize_json.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/Error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/crawler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/moto_crawler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/react_app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/react_json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/react/firebase/website/templates/visualize_json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/scraper/scrape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/Data_Lake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/Data_Lake_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/arrow_fx.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/data_types_and_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/sentiment_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/serverLib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server/wiki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/Data_Lake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/analyze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/arrow_fx.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/data_types_and_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/get_save_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/make_data_accessible.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/record.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/sentiment_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/serverLib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/speech_recognition_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/standardize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/server_2/wiki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/website/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conotation_vibes/website/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +157,22 @@
     <session id="-1312895209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="floo" value="1" />
           <entry key="py" value="7" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="7" />
         </counts>
       </usages-collector>
@@ -52,7 +195,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="324">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <marker date="1612033224747" expanded="true" signature="909:949" ph="..." />
@@ -70,16 +213,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/sentiment_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conotation_vibes/.floo">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -118,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="713" />
     <option name="y" value="39" />
     <option name="width" value="892" />
@@ -129,12 +274,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="conotation_vibes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conotation_vibes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conotation_vibes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conotation_vibes" type="462c0819:PsiDirectoryNode" />
               <item name="conotation_vibes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -146,14 +295,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/server.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python files/BigData" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adam l\Desktop\JS, HTML, CSS, XML\conotation_vibes" />
       <recent name="C:\Users\adam l\Desktop\JS, HTML, CSS, XML\conotation_vibes\server" />
     </key>
   </component>
@@ -206,8 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08324552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,7 +399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="324">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <marker date="1612033224747" expanded="true" signature="909:949" ph="..." />
@@ -276,13 +426,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/sentiment_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conotation_vibes/.floo">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
